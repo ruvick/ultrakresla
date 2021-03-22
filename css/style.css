@@ -123,6 +123,7 @@ body {
   flex-direction: column; }
 
 .page {
+  padding: 46px 0 80px 0;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto; }
@@ -1885,6 +1886,46 @@ body.ie .ibg img {
 
 .footer-menu .callback__popup:after {
   background: #F04815; }
+
+.info__benefit {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 41px; }
+
+.benefit__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 360px;
+  flex: 0 1 360px;
+  min-height: 69px;
+  border: 2px solid #ECECEC;
+  border-radius: 5px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 10px 0 22px;
+  overflow: hidden; }
+  .benefit__item p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #1C6434; }
+  .benefit__item_l {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/bn-01.jpg"); }
+  .benefit__item_c {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/bn-02.jpg"); }
+  .benefit__item_r {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/bn-03.jpg"); }
 
 .products {
   padding: 73px 0 30px 0; }

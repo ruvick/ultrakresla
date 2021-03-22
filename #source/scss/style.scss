@@ -22,7 +22,7 @@
 	src: local("☺"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype"),
 		url("../fonts/Lato-Bold.svg") format("svg");
 	font-weight: 700;
-	font-style: normal;
+	font-style: normal; 
 }
 
 @font-face {
@@ -83,6 +83,7 @@ body {
 	}
 }
 .page {
+  padding: 46px 0 80px 0;
 	flex: 1 1 auto; 
 }
 //</ОБОЛОЧКА>===========================================================================================================
@@ -130,6 +131,63 @@ body {
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
 
 //<ОСНОВНОЙ БЛОК>=====================================================================================================================================
+
+.info {
+  // .info__benefit
+  &__benefit {
+    justify-content: space-between;
+    margin-bottom: 41px;
+  }
+}
+
+.benefit {
+  // .benefit__item
+  &__item {
+    flex: 0 1 360px;
+    min-height: 69px;
+    border: 2px solid #ECECEC;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    padding: 0px 10px 0 22px;
+    overflow: hidden;
+    p {
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.4 / 12 * 100%;
+      color: #1C6434;
+    }
+    // .benefit__item_l
+    &_l {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('../img/bn-01.jpg');
+    }
+    // .benefit__item_c
+    &_c {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('../img/bn-02.jpg');
+    }
+    // .benefit__item_r
+    &_r {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('../img/bn-03.jpg');
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 .products {
 	padding: 73px 0 30px 0;
