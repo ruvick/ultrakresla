@@ -80,9 +80,10 @@
 	&__info {
 		max-width: 685px;
 		width: 100%;
+		margin-top: 5px;
 		min-height: 51px;
 		justify-content: space-between;
-		align-items: flex-end;
+		align-items: center;
 	}
 	// .header__search
 	&__search {
@@ -129,7 +130,7 @@
 		font-size: 24px;
 		font-weight: 700;
 		color: #1C6434;
-		margin-bottom: 6px;
+		margin-bottom: 3px;
 	}
 	// .callback__popup
 	&__popup {
