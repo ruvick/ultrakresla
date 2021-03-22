@@ -1,0 +1,99 @@
+// Хлебные крошки ===============================================================================================================================================
+.breadcrumb {
+
+}
+.breadcrumb ul {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.breadcrumb ul li {
+	font-size: 12px;
+	line-height: 23px;
+	color: #5a5b5e;
+}
+.breadcrumb ul li a {
+	font-size: 11px;
+	line-height: 23px;
+	margin-right: 5px;
+	color: #a8a8a8; 
+}
+// Пагинация 1 ===============================================================================================================================================
+.pagination {
+	justify-content: center;
+	// .pagination__nav-links
+	&__nav-links {
+		max-width: 232px;
+		width: 100%;
+		align-items: center;
+		min-height: 21px;
+	}
+	// .pagination__back 
+	&__back {
+		height: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 37px;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			// left: 0;
+			width: 8px;
+			height: 12px;
+			background: url("../img/icons/arrow-back.svg");
+			background-repeat: no-repeat;
+		} 
+	}
+	// .pagination__numbers
+	&__numbers {
+		margin-right: 20px;
+		font-size: 16px;
+	}
+	&__block-dot {
+		margin-right: 20px;
+		justify-content: space-between;
+		width: 30px;
+	}
+	// .pagination__dot
+	&__dot {
+		display: block;
+		font-size: 16px;
+	}
+	// .pagination__next
+	&__next {
+		height: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 13px;
+		position: relative;
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			// right: 10%;
+			width: 8px;
+			height: 12px;
+			background: url("../img/icons/arrow-next.svg");
+			background-repeat: no-repeat;
+		}
+	}
+}
+.current {
+	color: #65B965;
+}
+// Пагинация 2 ===============================================================================================================================================
+.pagging {@include flexbox();justify-content: center;align-items: center;padding: 0px 0px 0px 0px;}
+.pagging__arrow {width: 13px;height: 24px;
+	&:first-child{background: url('../img/icons/p-left.svg') 0 0 no-repeat;background-size: 100%;}
+	&:last-child{background: url('../img/icons/p-right.svg') 0 0 no-repeat;background-size: 100%;} 
+}
+.pagging-list {margin: 0px 25px;@include flexbox();
+	li{margin: 0px 25px;}
+}
+.pagging__link {border-bottom: 1px solid #fff;font-size: 18px;color: #000;
+	&.active{border-bottom: 1px solid #000;}
+}
