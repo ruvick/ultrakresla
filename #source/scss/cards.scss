@@ -4,102 +4,56 @@
 	// margin: 0 -8.5px;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
 	margin-bottom: 30px;
 	&__body {
-		// padding: 20px 33px 0px 25px;
 		flex-direction: column;
-		align-items: center;
+		// align-items: center;
 		background: #FFFFFF;
-		border-radius: 10px;
+		border-radius: 5px;
+		border: 1px solid #ECECEC;
 		overflow: hidden;
-		min-height: 442px;
 		flex: 0 1 23%;
 		margin-bottom: 30px;
 	}
 	&__link { 
-		// padding: 20px 53px;
-		padding: 20px 0;
-		// width: 100%;
-		min-height: 280px;
-		// flex: 1 1 auto;
-		// border-bottom: 1px solid #EAEAEA;  
+		padding: 0px 20px;
+    flex: 0 1 195px;
+    min-height: 295px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 		img {
-			// max-width: 100%;
-			max-height: 241px;
-			flex: 0 0 158px;
+		max-width: 100%;
+    // height: 100%;
+    max-height: 295px;
+		object-fit: cover;
 		}
 	}
 	&__text {
 		flex-direction: column;
-		padding: 14px 30px 18px 33px;
-		width: 100%;
-		border-top: 1px solid #EAEAEA; 
+		padding-left: 19px;
+		padding: 13px 20px 13px 20px;
 		flex: 1 1 auto;
-		// min-height: 130px;
+		min-height: 93px;
 		h4 {
-			text-align: center;
-			font-size: 18px;
-			line-height: 21.6px;
-			max-width: 180px;
-			width: 100%;
-			margin: 0px auto 5px auto;
+			color: #727272;
+			font-family: Montserrat;
+			margin-bottom: 8px;
 			flex: 1 1 auto;
 			// .prod-card__manuf
 		}
 	}
 	&__price {
-		justify-content: space-around;
-		// margin: 0px auto 3.5px auto;
-		margin-bottom: 3.5px;
-	}
-	// .prod-card__avail
-	&__price-old {
-		font-weight: 300;
-		text-decoration: line-through #DE182A;
-	}
-	&__price-new {
 		font-size: 20px;
-		font-weight: 500;
-	}
-		&__benefit {
-		font-size: 11px;
-		color: #A8A8A8;
-		text-align: center;
-		span {
-			color: #65B965;
-			font-weight: 600;
-		}
-	}
-	&__button {
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-	}
-	// .prod-card__price
-	&__baskcet {
-	// width: 132px;
-	width: 100%;
-	min-height: 30px;
-	justify-content: center;
-	align-items: center;
-	background: #65B965;
-	color: #fff;
-	font-size: 14px;
-	}
-		&__order{
-	// width: 132px;
-	width: 100%;
-	min-height: 30px;
-	justify-content: center;
-	align-items: center;
-	background: #F5E11E;
-	font-size: 14px;
+		font-family: Montserrat;
+		font-weight: bold;
+		color: #000;
 	}
 }
-
-.prod-card-double {
-	flex-direction: row-reverse;
+.prod-card__btn {
+	width: 100%;
+	border-radius: 5px;
 }
 
 
