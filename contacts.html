@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Главная</title>
+	<title>Контакты</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="description" content="Новый сайт">
@@ -13,10 +13,10 @@
 	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>  
 <body> 
-	<div class="wrapper">  
+	<div class="wrapper"> 
 		<header class="header-top">
 	<div class="container">
 		<ul class="header-top__menu d-flex">
@@ -121,11 +121,11 @@
 		</div>
 
 	</div>
-</header> 
+</header>  
 
 		<main class="page">
 
-			<section class="info">
+			<section class="contacts"> 
 				<div class="container">
 
 					<div class="info__benefit benefit d-flex">
@@ -153,277 +153,64 @@
 
 					</div>
 
-					<div class="info-img d-flex">
+					<div class="breadcrumb">
+						<ul>
+							<li><a href="#">Главная </a></li>/
+							<li>Контакты</li>
+						</ul>
+					</div>
 
-						<div class="info-img__col">
+					<h1>Контакты</h1>
 
-							<div class="info-img__three three-img d-flex">
-								<div class="three-img__one position">
-									<img src="img/info-card/card-01.jpg" alt="">
-									<div class="info-img__text color-t-01">
-										<p>
-											Спортивные <br>
-											сидения
-										</p>
-									</div>
-								</div>
-								<div class="three-img__two d-flex">
-									<div class="three-img__item position">
-										<img src="img/info-card/card-02.jpg" alt="">
-<!-- 										<div class="info-img__text color-t-02">
-											<p>
-												Кресла и диваны для 
-												микроавтобусов
-											</p>
-										</div> -->
-									</div>
-									<div class="three-img__item position">
-										<img src="img/info-card/card-03.jpg" alt="">
-										<div class="info-img__text color-t-03">
-											<p>
-												Игровые <br>
-												кресла
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
+					<div class="contacts__row d-flex">
+						
+						<div class="contacts__col">
+							<ul>
+								<li>8 (800) 700-56-67</li>
+								<li>390037 г. Рязань, ул. Зубковой, д. 8а</li>
+								<li>
+									Для оформления заказа просим направлять заявки в свободной 
+									форме на электронную почту  info@ultrakresla.ru
+								</li>
+							</ul>
 
-							<div class="info-img__one position">
-								<img src="img/info-card/card-04.jpg" alt="">
-								<div class="info-img__text color-t-04">
-									<p>
-										Кресла и диваны для <br>
-										микроавтобусов
-									</p>
-								</div>
-							</div>
-
+							<h3>Реквизиты</h3>
+							<ul>
+								<li>ООО «АВТОМОБИЛЬНЫЕ СИДЕНЬЯ»</li>
+								<li>Юр. Адрес: 117152 г. Москва, ул. Загородное шоссе дом 7, корпус 1, пом. 49.</li>
+								<li>ИНН 7726460603</li>
+								<li>КПП 772601001</li>
+								<li>ОГРН 1197746722029</li>
+								<li>Расчетный счет: 40702810902020001522 в АО «АЛЬФА-БАНК»</li>
+								<li>БИК 044525593</li>
+								<li>Корреспондентский счет 30101810200000000593</li>
+							</ul>
 						</div>
 
-						<div class="info-img__col">
-
-							<div class="info-img__one position">
-								<img src="img/info-card/card-05.jpg" alt="">
-								<div class="info-img__text color-t-05">
-									<p>
-										Кресла для <br>
-										автосимуляторов 
-									</p>
+						<div class="contacts__col">
+							<form action="#" class="contacts__form form">
+								<div class="form__input-block d-flex">
+									<input type="text" placeholder="Имя" class="form__input input">
+									<input type="tel" placeholder="Телефон" class="form__input input__phone">
 								</div>
-							</div>
-
-							<div class="info-img__three three-img d-flex">
-								<div class="three-img__two d-flex">
-									<div class="three-img__item position">
-										<img src="img/info-card/card-06.jpg" alt="">
-										<div class="info-img__text color-t-06">
-											<p>
-												Сидения для <br>
-												спецтехники
-											</p>
-										</div>
-									</div>
-									<div class="three-img__item position">
-										<img src="img/info-card/card-07.jpg" alt="">
-										<div class="info-img__text color-t-07">
-											<p>
-												Сидения для <br>
-												катеров и лодок
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="three-img__one position">
-									<img src="img/info-card/card-08.jpg" alt="">
-									<div class="info-img__text color-t-08">
-										<p>
-											Компьютерные <br>
-											кресла
-										</p>
-									</div>
-								</div>
-							</div>
-
+								<textarea name="" id="" cols="30" rows="10"></textarea>
+								<button type="submit" class="form__btn btn">Отправить</button>
+							</form>
 						</div>
 
 					</div>
 
+					<div class="block__map" id="map"></div>
+
 				</div>
 			</section>
+
 
 			<section class="cashback">
 				<div class="container">
 					<h2>Получите кешбек при совершении заказа</h2>
 					<p>Возвращаем 10% от стоимости приобретенного кресла!</p>
 					<a href="#" class="cashback__btn btn">Получить кешбек</a>
-				</div>
-			</section>
-
-			<section class="stages">
-				<div class="container">
-					<h2>Как мы работаем</h2>
-
-					<div class="advant__row d-flex">
-
-						<div class="advant__item advant-icon-01">
-							<p>
-								Вы оставляете заявку
-								на изготовление кресла,
-								мы выставляем счет на оплату
-							</p>
-						</div>
-
-						<div class="advant__item advant-icon-02">
-							<p>
-								Вы вносите предоплату от 50%,
-								мы запускаем заказ в работу
-							</p>
-						</div>
-
-						<div class="advant__item advant-icon-03">
-							<p>
-								После производства
-								досконально осматриваем
-								и проверяем все кресла
-							</p>
-						</div>
-
-						<div class="advant__item advant-icon-04">
-							<p>
-								Доставляем заказ по указанному
-								адресу, принимаем оставшуюся
-								часть оплаты
-							</p>
-						</div>
-
-					</div>
-
-				</div>
-			</section>
-
-			<section id="newprod" class="newprod">
-				<div class="container">
-					<h2>Новинки</h2>
-
-					<div class="prod-card d-flex">
-
-						<div class="prod-card__body d-flex">
-							<a href="#" class="prod-card__link">
-								<img src="img/product/pr-01.jpg" alt=""> 
-							</a>
-
-							<div class="prod-card__text d-flex">
-								<h4>
-									Спортивное сиденье <br>
-									Чемпион
-								</h4>
-								<p class="prod-card__price">15 400 руб.</p>
-							</div>
-							<a href="#" class="prod-card__btn btn">Подробнее</a>
-						</div>
-
-
-						<div class="prod-card__body d-flex">
-							<a href="#" class="prod-card__link">
-								<img src="img/product/pr-02.jpg" alt=""> 
-							</a>
-
-							<div class="prod-card__text d-flex">
-								<h4>
-									Кресло для аттракциона <br>
-									4Д Синема
-								</h4>
-								<p class="prod-card__price">17 800 руб.</p>
-							</div>
-							<a href="#" class="prod-card__btn btn">Подробнее</a>
-						</div>
-
-
-						<div class="prod-card__body d-flex">
-							<a href="#" class="prod-card__link">
-								<img src="img/product/pr-03.jpg" alt=""> 
-							</a>
-
-							<div class="prod-card__text d-flex">
-								<h4>
-									Кресло оператора S16
-								</h4>
-								<p class="prod-card__price">32 000 руб.</p>
-							</div>
-							<a href="#" class="prod-card__btn btn">Подробнее</a>
-						</div>
-
-
-						<div class="prod-card__body d-flex">
-							<a href="#" class="prod-card__link">
-								<img src="img/product/pr-04.jpg" alt=""> 
-							</a>
-
-							<div class="prod-card__text d-flex">
-								<h4>
-									Спортивное сиденье <br>
-									Чемпион
-								</h4>
-								<p class="prod-card__price">14 000 руб.</p>
-							</div>
-							<a href="#" class="prod-card__btn btn">Подробнее</a>
-						</div>
-
-					</div>
-
-				</div>
-			</section>
-
-			<section id="useful" class="useful">
-				<div class="container">
-					<h2>Полезные материалы</h2>
-
-					<div class="useful__row d-flex">
-						<div class="useful__item-img-item useful__item-img_01">
-							<!-- <img src="img/useful/useful-01.jpg" alt=""> -->
-							<p>
-								Размеры автокресел в 
-								условиях модерна, 
-								лишённого традиционных 
-								и религиозных связей
-							</p>
-						</div>
-						<div class="useful__item-img d-flex">
-							<div class="useful__item-img-item useful__item-img_02">
-								<!-- <img src="img/useful/useful-02.jpg" alt=""> -->
-								<p>
-									Наше производство желало видеть
-									социологию широко признанной, 
-									полноценной научной областью
-								</p>
-							</div>
-							<div class="useful__item-img-item useful__item-img_03">
-								<!-- <img src="img/useful/useful-03.jpg" alt=""> -->
-								<p>
-									Эксклюзивные работы на гуманитарном 
-									факультете стала символом признания 
-								</p>
-							</div>
-						</div>
-						<div class="useful__item-img d-flex">
-							<div class="useful__item-img-item useful__item-img_04">
-								<!-- <img src="img/useful/useful-04.jpg" alt=""> -->
-								<p>
-									Использование новейших материалов привело к 
-									негативной реакции в отношении нового и светского 
-								</p>
-							</div>
-							<div class="useful__item-img-item useful__item-img_05">
-								<!-- <img src="img/useful/useful-05.jpg" alt=""> -->
-								<p>
-									Степени защиты кресла своего рода манифест науки
-								</p>
-							</div>
-						</div>
-					</div>
-					<a href="#" class="useful__btn btn">Смотреть все материалы</a>
-
 				</div>
 			</section>
 

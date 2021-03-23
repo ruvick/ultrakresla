@@ -121,7 +121,7 @@ body {
 // @import "fancybox.min.scss";
 @import "pagging.scss";
 //@import "icons.scss";
-// @import "map.scss";
+@import "map.scss";
 @import "slider.scss";
 @import "cards.scss";
 // @import "popup.scss";
@@ -651,6 +651,22 @@ body {
 	font-weight: 400;
   line-height: 24 / 16 * 100%;
 }
+
+
+.contacts {
+  h1 {
+    margin-bottom: 12px;
+  }
+}
+.contacts .breadcrumb {
+    margin-bottom: 29px;
+  }
+
+
+
+
+
+
 
 
 .card {
