@@ -9,12 +9,16 @@
 //<BUTTONS (a.btn+tab)>====================================================================================================
 .btn{
 	display: inline-flex; 
+	justify-content: center;
+	align-items: center;
 	width: 261px;
 	height: 40px;
 	padding: 5px;
 	background: #1C6434; 
 	color: #fff;
 	font-size: 14px;
+	font-family: Montserrat;
+	font-weight: bold;
 	border-radius: 8px;
 	&:hover{}
 	&.fw{width: 100%;} 
