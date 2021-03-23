@@ -8,19 +8,26 @@
 	flex-wrap: wrap;
 }
 .breadcrumb ul li {
-	font-size: 12px;
-	line-height: 23px;
-	color: #5a5b5e;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23 /14 * 100%;
+	color: #727272;
+	// padding-left: 5px;
+	margin: 0 5px;
 }
 .breadcrumb ul li a {
-	font-size: 11px;
-	line-height: 23px;
-	margin-right: 5px;
-	color: #a8a8a8; 
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23 /14 * 100%;
+	// margin-right: 5px;
+	// margin-left: 5px;
+	color: #000;
+	border-bottom: 1px solid #000;
 }
 // Пагинация 1 ===============================================================================================================================================
 .pagination {
-	justify-content: center;
 	// .pagination__nav-links
 	&__nav-links {
 		max-width: 232px;
@@ -50,7 +57,8 @@
 	// .pagination__numbers
 	&__numbers {
 		margin-right: 20px;
-		font-size: 16px;
+		font-size: 18px;
+		font-family: Lato;
 	}
 	&__block-dot {
 		margin-right: 20px;
@@ -60,7 +68,7 @@
 	// .pagination__dot
 	&__dot {
 		display: block;
-		font-size: 16px;
+		font-size: 18px;
 	}
 	// .pagination__next
 	&__next {

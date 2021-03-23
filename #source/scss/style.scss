@@ -626,31 +626,30 @@ body {
 
 
 .category {
-	padding: 27px 0 35px 0;
+	// padding: 27px 0 35px 0;
 }
-
+.category .benefit {
+  margin-bottom: 26px;
+}
 .category .breadcrumb {
-	margin-bottom: 22px;
+	margin-bottom: 29px;
 }
-
-.category h2 {
-	margin-bottom: 38px;
+.category h1 {
+	margin-bottom: 30px;
 }
 
 .category .prod-card {
-	margin-bottom: 34px;
-}
-
-.pagination {
-	margin: 0px auto;
+	margin-bottom: 45px;
 }
 
 .category-description {
-	padding: 35px 0;
+	padding: 71px 0 0 0;
 }
 .category-description__text p {
-	font-weight: 300;
-	margin-bottom: 28px;
+  font-family: Lato;
+  font-size: 16px;
+	font-weight: 400;
+  line-height: 24 / 16 * 100%;
 }
 
 

@@ -800,81 +800,88 @@ body.ie .ibg img {
   flex-wrap: wrap; }
 
 .breadcrumb ul li {
-  font-size: 12px;
-  line-height: 23px;
-  color: #5a5b5e; }
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 164.28571%;
+  color: #727272;
+  margin: 0 5px; }
 
 .breadcrumb ul li a {
-  font-size: 11px;
-  line-height: 23px;
-  margin-right: 5px;
-  color: #a8a8a8; }
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 164.28571%;
+  color: #000;
+  border-bottom: 1px solid #000; }
 
-.pagination {
+.pagination__nav-links {
+  max-width: 232px;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 21px; }
+
+.pagination__back {
+  height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
-  .pagination__nav-links {
-    max-width: 232px;
-    width: 100%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    min-height: 21px; }
-  .pagination__back {
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 37px;
+  position: relative; }
+  .pagination__back:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 8px;
     height: 12px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-right: 37px;
-    position: relative; }
-    .pagination__back:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      width: 8px;
-      height: 12px;
-      background: url("../img/icons/arrow-back.svg");
-      background-repeat: no-repeat; }
-  .pagination__numbers {
-    margin-right: 20px;
-    font-size: 16px; }
-  .pagination__block-dot {
-    margin-right: 20px;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 30px; }
-  .pagination__dot {
-    display: block;
-    font-size: 16px; }
-  .pagination__next {
+    background: url("../img/icons/arrow-back.svg");
+    background-repeat: no-repeat; }
+
+.pagination__numbers {
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: Lato; }
+
+.pagination__block-dot {
+  margin-right: 20px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 30px; }
+
+.pagination__dot {
+  display: block;
+  font-size: 18px; }
+
+.pagination__next {
+  height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 13px;
+  position: relative; }
+  .pagination__next:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 8px;
     height: 12px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-left: 13px;
-    position: relative; }
-    .pagination__next:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      width: 8px;
-      height: 12px;
-      background: url("../img/icons/arrow-next.svg");
-      background-repeat: no-repeat; }
+    background: url("../img/icons/arrow-next.svg");
+    background-repeat: no-repeat; }
 
 .current {
   color: #65B965; }
@@ -2178,27 +2185,26 @@ body.ie .ibg img {
   display: none;
   padding: 13px 21px; }
 
-.category {
-  padding: 27px 0 35px 0; }
+.category .benefit {
+  margin-bottom: 26px; }
 
 .category .breadcrumb {
-  margin-bottom: 22px; }
+  margin-bottom: 29px; }
 
-.category h2 {
-  margin-bottom: 38px; }
+.category h1 {
+  margin-bottom: 30px; }
 
 .category .prod-card {
-  margin-bottom: 34px; }
-
-.pagination {
-  margin: 0px auto; }
+  margin-bottom: 45px; }
 
 .category-description {
-  padding: 35px 0; }
+  padding: 71px 0 0 0; }
 
 .category-description__text p {
-  font-weight: 300;
-  margin-bottom: 28px; }
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; }
 
 .card {
   padding: 27px 0 22.5px 0; }
