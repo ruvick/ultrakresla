@@ -118,9 +118,8 @@ input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance:n
 	&.focus{}
 	&.err{}
 }
-textarea.input{
+textarea{
 	resize:none;
-	padding: 5px 10px;
 }
 //</INPUT>====================================================================================================
 

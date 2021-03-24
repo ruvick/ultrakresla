@@ -761,7 +761,7 @@ ymaps.ready(init);
 function init () {
     var myMap = new ymaps.Map("map", {
         // Координаты центра карты
-        center:[51.741304, 36.149528],
+        center:[54.607263, 39.785126],
         // Масштаб карты
         zoom: 17,
         // Выключаем все управление картой
@@ -771,16 +771,16 @@ function init () {
     var myGeoObjects = [];
     
     // Указываем координаты метки
-    myGeoObjects = new ymaps.Placemark([51.741304, 36.149528],{
-                    balloonContentBody: '\'ЦЕНТР ЮРИДИЧЕСКОЙ ПОДДЕРЖКИ В КУРСКЕ\'',
+    myGeoObjects = new ymaps.Placemark([54.607263, 39.785126],{
+                    balloonContentBody: 'ООО «АВТОМОБИЛЬНЫЕ СИДЕНЬЯ»',
                     },{
                     iconLayout: 'default#image',
                     // Путь до нашей картинки
-                    iconImageHref: 'img/icon/mappointer.svg',  
+                    iconImageHref: 'img/icons/map-cart.svg',  
                     // Размеры иконки
-                    iconImageSize: [70, 70],
+                    iconImageSize: [23, 34],
                     // Смещение верхнего угла относительно основания иконки
-                    iconImageOffset: [-25, -110]
+                    iconImageOffset: [-10, -43]
     });
                 
     var clusterer = new ymaps.Clusterer({
