@@ -937,7 +937,7 @@ if (isMobile.any()) { }
 
 	var act = "click";
 	if (isMobile.iOS()) {
-		var act = "touchstart";  
+		var act = "touchstart";   
 	}
 
 
@@ -968,6 +968,23 @@ if (document.body.clientWidth>1024){
 		$(".header").on("mouseleave", hideMenu); 
 	});
 }
+
+
+$(document).ready(function(){
+	function hideMenu() {
+		$('.menu-drop-down').slideUp(400);
+		$('.link__drop-down').removeClass('active');
+	}
+	function showMenu() {
+		$('.menu-drop-down').slideDown(400);
+		$('.link__drop-down').addClass('active');
+	}
+	$(document).ready(function() {
+		$(".link__drop-down").on("mouseover", showMenu);
+		$(".menu-drop-down").on("mouseleave", hideMenu); 
+	});
+});
+
 
 // Slider на главной
 $('.info-sl__slider').slick({
