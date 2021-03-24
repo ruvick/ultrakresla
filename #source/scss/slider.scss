@@ -18,7 +18,7 @@
 	justify-content: center;
 	align-items: center;
 }
-.info-sl__slider button:before {    
+.info-sl__slider button:before {     
 	content:'';
 	float: left;
 	width: 8px;
@@ -118,14 +118,18 @@
 	justify-content: space-between;
 }
 .select-prod-sl {
-	// border: 0.4px solid #c7c9cb;
 	display: flex;
 	justify-content: space-between;
-	max-width: 554px;
+	flex-direction: row-reverse;
+	max-width: 460px;
 	width: 100%;
+	height: 460px;
+	border: 2px solid #ECECEC;
+	border-radius: 5px;
+	overflow: hidden;
 }
 .select-slider-big {
-	max-width: 457px;
+	max-width: 390px;
   width: 100%;
   background: #FFFFFF;
   border-radius: 10px;
@@ -136,17 +140,21 @@
 	display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 1 290px;
+  margin: 0px auto;
 }
 .select-slider-big__item img {
     max-width: 100%;
+    // height: 100%;
+    object-fit: cover;
 }
 .select-prod-slider {
-	width: 66px;
-	height: 273px;
+	width: 75px;
+	height: 250px;
 	display: flex;
   flex-direction: column;
   background: #fff;
-  border-radius: 10px;
+  margin-top: 20px;
 }
 .select-prod-slider.slick-slider .slick-list {
     padding: 0 !important;
@@ -155,27 +163,30 @@
     height: 100% !important;
 }
 .select-prod-slider__item {
-	max-width: 100px !important;
+	max-width: 38px !important;
 	width: 100%;
+	// flex: 0 1 50px;
+	height: 51px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	height: 70px;
-	border-bottom: 1px solid #EAEAEA;
+	// border-bottom: 1px solid #EAEAEA;
 }
 .select-prod-slider__item:last-child {
 	border-bottom: none;
 }
 .select-prod-slider__item img {
-	// max-width: 100px;
-	// max-height: 100px;
+		max-width: 100%;
+		height: 100%;
+		object-fit: cover;
 }
 .select-prod-slider.slick-slider .slick-track {
 	width: 100% !important;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
   height: 100% !important;
 }
 .sl-big__icon-img {
@@ -191,7 +202,7 @@
   object-fit: cover;
 }
 .select-prod-slider__item.slick-slide img {
-	opacity: 0.5;
+	opacity: 0.3;
 }
 .select-prod-slider__item.slick-slide.slick-current img {
 	opacity: 1;
