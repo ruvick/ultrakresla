@@ -26,7 +26,7 @@
 }
 
 @font-face {
-	font-family: 'Stolzl'; 
+	font-family: 'Stolzl';  
 	src: url('../fonts/Stolzl-Regular.eot');
 	src: local('☺'), url('../fonts/Stolzl-Regular.woff') format('woff'), url('../fonts/Stolzl-Regular.ttf') format('truetype'), url('../fonts/Stolzl-Regular.svg') format('svg');
 	font-weight: 400;
@@ -1191,6 +1191,12 @@ body {
   .header__search {
     margin: 0 5px;
   }
+  .benefit__item {
+    margin-right: 10px;
+  }
+  .benefit__item:last-child {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1298,6 +1304,8 @@ body {
   .header__logo:before {
     height: 55px;
     background-size: 85%; }
+    .page {
+    padding: 90px 0 20px 0;}
   .slide {
     padding-top: 70px; }
   .header__search {
@@ -1337,7 +1345,7 @@ body {
   .cardinfo {
     padding: 0 0 20px 0; }
   .category {
-    padding: 83px 0 20px 0;
+    padding: 0px 0 20px 0;
   }
   .category .breadcrumb {
     margin-bottom: 10px;
@@ -1497,6 +1505,15 @@ body {
     -ms-flex-pack: end;
     justify-content: flex-end; } }
 
+@media (max-width: 612px) {
+  .info__benefit {
+    display: none;
+  }
+  .category-description__text p {
+    text-align: justify;
+  }
+}
+
 @media (max-width: 550px) {
   .select-prod-sl {
     flex-wrap: wrap;
@@ -1545,7 +1562,11 @@ body {
   .products h2 {
     margin-bottom: 15px; }
   .newprod h2 {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+    .pagination {
+      justify-content: center;
+    }
+ }
 
 @media (max-width: 530px) {
   .header__logo:before {
@@ -1673,9 +1694,9 @@ body {
   //   background-size: 70%; }
   .slide {
     padding-top: 56px; }
-  .category {
-    padding: 63px 0 20px 0;
-  }
+  // .category {
+  //   padding: 63px 0 20px 0;
+  // }
 }
 
 @media (max-width: 354px) {
