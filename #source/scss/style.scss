@@ -1391,6 +1391,11 @@ body {
     margin-left: 20px;
     margin-top: 4px;
   }
+  .benefit__item_l,
+  .benefit__item_c,
+  .benefit__item_r {
+    background-position: 35% 80%;
+  }
 }
 
 @media (max-width: 680px) {

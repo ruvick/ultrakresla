@@ -2958,7 +2958,11 @@ body.ie .ibg img {
     font-size: 22px; }
   .header__info {
     margin-left: 20px;
-    margin-top: 4px; } }
+    margin-top: 4px; }
+  .benefit__item_l,
+  .benefit__item_c,
+  .benefit__item_r {
+    background-position: 35% 80%; } }
 
 @media (max-width: 680px) {
   .prod-card__body {
