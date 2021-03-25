@@ -1254,6 +1254,12 @@ body {
   }
 }
 
+@media (max-width: 1050px) {
+  .menu__list li:nth-child(6) {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .info-sl__text-new {
     top: 0%;
@@ -1299,6 +1305,12 @@ body {
     font-size: 14px; }
   .prod-card__price-new {
     font-size: 16px; } }
+
+@media (max-width: 900px) {
+  .menu__list li:nth-child(5) {
+    display: none;
+  }
+}
 
 @media (max-width: 860px) {
   .cards-item__img-l {
@@ -1454,7 +1466,7 @@ body {
   }
   .header__info {
     margin-left: 20px;
-    margin-top: 4px;
+    margin-top: 0;
   }
   .benefit__item_l,
   .benefit__item_c,
@@ -1902,6 +1914,10 @@ body {
   .useful__item-img_02,
   .useful__item-img_03 {
     max-width: 260px;
+  }
+  .mob-callback__phone:before {
+    background-size: 85%;
+    background-position: 0% 65%;
   }
 }
 

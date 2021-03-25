@@ -2826,6 +2826,10 @@ body.ie .ibg img {
   .three-img__one:last-child {
     margin-left: 10px; } }
 
+@media (max-width: 1050px) {
+  .menu__list li:nth-child(6) {
+    display: none; } }
+
 @media (max-width: 1024px) {
   .info-sl__text-new {
     top: 0%;
@@ -2864,6 +2868,10 @@ body.ie .ibg img {
     font-size: 14px; }
   .prod-card__price-new {
     font-size: 16px; } }
+
+@media (max-width: 900px) {
+  .menu__list li:nth-child(5) {
+    display: none; } }
 
 @media (max-width: 860px) {
   .cards-item__img-l {
@@ -3007,7 +3015,7 @@ body.ie .ibg img {
     font-size: 22px; }
   .header__info {
     margin-left: 20px;
-    margin-top: 4px; }
+    margin-top: 0; }
   .benefit__item_l,
   .benefit__item_c,
   .benefit__item_r {
@@ -3401,7 +3409,10 @@ body.ie .ibg img {
     flex: 0 1 40%; }
   .useful__item-img_02,
   .useful__item-img_03 {
-    max-width: 260px; } }
+    max-width: 260px; }
+  .mob-callback__phone:before {
+    background-size: 85%;
+    background-position: 0% 65%; } }
 
 @media (max-width: 480px) {
   .prod-card__body {
