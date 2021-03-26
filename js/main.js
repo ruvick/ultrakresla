@@ -953,6 +953,15 @@ if (iconMenu) {
 	});
 }
 
+// Строка поиска на мобилках
+let mobsearch = document.querySelector(".mob-search");
+let headsearch = document.querySelector(".header__search");
+if (mobsearch) {
+	mobsearch.addEventListener("click", function () {
+		headsearch.classList.toggle("active");
+	});
+}
+
 // Открытие ПК меню при наведении до 1024px
 if (document.body.clientWidth>1024){
 	function hideMenu() {
