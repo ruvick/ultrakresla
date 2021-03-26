@@ -776,11 +776,11 @@ function init () {
                     },{
                     iconLayout: 'default#image',
                     // Путь до нашей картинки
-                    iconImageHref: 'img/icons/map-cart.svg',  
+                    iconImageHref: 'img/icons/map.png',  
                     // Размеры иконки
                     iconImageSize: [23, 34],
                     // Смещение верхнего угла относительно основания иконки
-                    iconImageOffset: [-10, -43]
+                    iconImageOffset: [-5, -40]
     });
                 
     var clusterer = new ymaps.Clusterer({
